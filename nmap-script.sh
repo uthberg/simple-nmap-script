@@ -6,7 +6,7 @@ read IP
 #initiates scan on defined ip
 echo "Scanning target(s): $IP "
 #outputs scan to nmap.txt
-sudo nmap -A -T4 $IP -oN ~/nmap-output.txt
+sudo nmap -A -T4 $IP -oN nmap-output.txt
 
 
 
