@@ -5,7 +5,7 @@ echo "Enter IP Address range: "
 read IP
 #initiates scan on defined ip
 echo "Scanning target(s): $IP "
-#outputs scan to nmap.txt
+#-A flag for version detection -T4 for time and -oN to output
 sudo nmap -A -T4 $IP -oN nmap-output.txt
 
 
